@@ -1,0 +1,122 @@
+# =====================================
+# Global Node / JS / TS Ignore
+# =====================================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =====================================
+# Build Outputs
+# =====================================
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+.next/
+out/
+expo/
+.expo/
+.expo-shared/
+
+# =====================================
+# Environment and Config Files
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# Logs
+# =====================================
+logs/
+*.log
+*.log.*
+debug.log
+
+# =====================================
+# OS-specific
+# =====================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =====================================
+# Editor / IDE Settings
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# =====================================
+# React Native Specific
+# =====================================
+.expo/
+.expo-shared/
+android/
+ios/
+*.iml
+*.keystore
+*.jks
+*.apk
+*.aab
+*.xcuserstate
+*.xcuserdata/
+Pods/
+DerivedData/
+
+# =====================================
+# Backend (Node.js / NestJS)
+# =====================================
+/backend/*/dist/
+/backend/*/coverage/
+/backend/*/logs/
+/backend/*/tmp/
+
+# =====================================
+# Frontend (React / Next.js)
+# =====================================
+/frontend/*/build/
+/frontend/*/.next/
+/frontend/*/.cache/
+/frontend/*/dist/
+
+# =====================================
+# Infrastructure & Deployment
+# =====================================
+/infra/.terraform/
+/infra/*.tfstate
+/infra/*.tfstate.backup
+/.docker/
+/docker-compose.override.yml
+*.pid
+*.seed
+*.bak
+*.old
+*.swp
+*.tmp
+
+# =====================================
+# Misc
+# =====================================
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# =====================================
+# Documentation builds
+# =====================================
+docs/.vuepress/dist/
+docs/build/
+docs/public/
